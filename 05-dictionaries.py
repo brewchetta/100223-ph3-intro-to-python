@@ -8,6 +8,13 @@
 #     occupation: "Instructor",
 # }
 
+teacher = {
+    "name": "Chett",
+    "city": "Brooklyn",
+    "number_of_cats": 2,
+    "occupation": "Instructor",
+}
+
 # console.log(teacher)
 # console.log(teacher.name)
 

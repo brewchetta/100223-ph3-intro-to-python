@@ -9,7 +9,19 @@
 #     console.log(`Hello ${name} the raccoon`)
 # }
 
-# name = "Raphael"
+name = "Bob"
+
+if name == "Bob":
+    print("OMG ITS BOB!!!!!!")
+else:
+    print(f"hello {name} the raccoon")
+
+name = "Raphael"
+
+if name == "Donatello" or name == "Raphael":
+    print("Chowabunga dude!")
+elif name == "Leonardo" or name == "Michelangelo":
+    print("It's turtle time!")
 
 # if (name === "Donatello" || name === "Raphael") {
 #     console.log("Cowabunga dude!")
@@ -21,3 +33,9 @@
 
 # let weekday = "Tuesday"
 # let myPizza = weekday === "Tuesday" ? "Pineapple Pizza" : "Pepperoni Pizza"
+
+weekday = "Wednesday"
+
+my_pizza = "Pineapple Pizza" if weekday == "Tuesday" else "Veggie Pizza"
+
+my_pizza_with_wednesday = "Pineapple Pizza" if weekday == "Tuesday" else "Veggie Pizza" if weekday == "Wednesday" else "Pepperoni Pizza"
